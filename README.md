@@ -5,3 +5,4 @@
 ##DSA
 
 [Queues](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/DSA/Queue.swift)
+[Stacks](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/DSA/Stacks.swift)
