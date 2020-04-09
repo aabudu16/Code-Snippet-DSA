@@ -14,4 +14,4 @@
 [Hamming Distance](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Bitwise%20Operations/HammingDistance.swift)
 
 ## Interger
-[Max in an Array]()
+[Max in an Array](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Interger/maxIntInArray.swift)
