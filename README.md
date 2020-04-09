@@ -18,3 +18,5 @@
 
 ## Linked List
 [Middle of the Linked List]()
+
+[sum of all Node value](https://github.com/aabudu16/Code-Snippet-DSA/tree/master/Linked%20List)
