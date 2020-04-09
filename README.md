@@ -15,3 +15,6 @@
 
 ## Interger
 [Max in an Array](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Interger/maxIntInArray.swift)
+
+## Linked List
+[Middle of the Linked List]()
