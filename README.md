@@ -11,3 +11,6 @@
 ## Dictionaries
 
 [Find most frequent int in an array](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Dictionaries/findTheMostFrequentInt.swift)
+
+## Bitwise Operations
+[Hamming Distance]()
