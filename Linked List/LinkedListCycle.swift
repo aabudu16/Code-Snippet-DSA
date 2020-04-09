@@ -22,7 +22,7 @@ func hasCycle(_ head: ListNode?) -> Bool {
         slow = slow?.next
         fast = fast?.next?.next
         
-        if slow?.val == fast?.val {
+        if slow === fast {
             return true
         }
     }
