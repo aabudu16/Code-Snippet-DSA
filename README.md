@@ -22,3 +22,5 @@
 [Sum of all Node value](https://github.com/aabudu16/Code-Snippet-DSA/tree/master/Linked%20List)
 
 [Check to see if Linked List is in a cycle](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Linked%20List/LinkedListCycle.swift)
+
+[Check to see if Two Linked Lists intersect](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Linked%20List/getIntersectionNode.swift)
