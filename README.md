@@ -20,8 +20,10 @@
 ## Interger
 [Max in an Array](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Interger/maxIntInArray.swift)
 
+[singleOneInArray](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Interger/returnSingleNum.swift)
+
 ## Linked List
-[Middle of the Linked List]()
+[Middle of the Linked List](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Linked%20List/findMiddleNode.swift)
 
 [Sum of all Node value](https://github.com/aabudu16/Code-Snippet-DSA/tree/master/Linked%20List)
 
