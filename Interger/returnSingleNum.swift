@@ -29,7 +29,7 @@ singleOneInArray(arr: [4,5,6,7,8,7,6,5,8])
 func singleOneInArray(arr:[Int])-> Int{
     var dict:[Int:Int] = [:]
     for i in arr{
-        dict = (dict[i] ?? 0) + 1
+        dict[i] = (dict[i] ?? 0) + 1
     }
     
     for (key, val) in dict{
