@@ -29,6 +29,7 @@ class Queue<Int>{
         return containerArray.isEmpty
     }
 
+ // Doing it with a while loop
  func rangeForInts(in queue: Queue<Int>) -> Int {
      let queue = queue
      var min = 0
@@ -64,5 +65,26 @@ myQueue.enqueue(6)
 myQueue.enqueue(9)
 myQueue.enqueue(2)
 myQueue.enqueue(8)
+
+rangeForInts(in: myQueue)
+ 
+ 
+ //Doing it Recursively
+ func rangeForInts(in queue: Queue<Int>, maxInt:Int = Int.min, minInt:Int = Int.max) -> Int {
+    let queue = queue
+    var min = minInt
+    var max = maxInt
+    guard !queue.isEmpty() else { return max - min }
+    
+    while !queue.isEmpty() {
+        let currentInt = queue.dequeue()!
+        if currentInt > max{
+            max = currentInt
+        } else if currentInt < min{
+            min = currentInt
+        }
+    }
+   return rangeForInts(in: queue, maxInt: max, minInt: min)
+}
 
 rangeForInts(in: myQueue)
