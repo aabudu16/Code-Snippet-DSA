@@ -10,14 +10,32 @@
  7 (Because 9 -2 = 7)
  */
  
- // Brute force using while loop
+class Queue<Int>{
+    private var containerArray:Array = [Int]()
+    
+    func enqueue(value: Int){
+        containerArray.append(value)
+    }
+    
+    func dequeue()-> Int?{
+        return containerArray.removeFirst()
+    }
+    
+    func arrayCount() -> Int{
+        return containerArray.count as! Int
+    }
+    
+    func isEmpty() -> Bool {
+        return containerArray.isEmpty
+    }
 
  func rangeForInts(in queue: Queue<Int>) -> Int {
-     var queue = queue
+     let queue = queue
      var min = 0
      var max = 0
-     guard !queue.isEmpty else { return 0 }
-     guard queue.count != 1 else { return queue.front! }
+     let arrayCounnt = queue.arrayCount()
+     guard !queue.isEmpty() else { return 0 }
+     guard arrayCounnt >= 2 else {return queue.dequeue()!}
      let firstInt = queue.dequeue()!
      let secondInt = queue.dequeue()!
      if firstInt < secondInt {
