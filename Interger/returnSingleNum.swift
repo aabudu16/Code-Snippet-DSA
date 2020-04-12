@@ -41,3 +41,29 @@ func singleOneInArray(arr:[Int])-> Int{
 }
 
 singleOneInArray(arr: [4,5,6,7,8,7,6,5,8])
+
+
+//Solving it recursively
+
+func singleOneInArray(arr:[Int], dict:[Int:Int] = [Int:Int]()) -> [Int:Int]{
+    var dict:[Int:Int] = dict
+    var arr = arr
+    while !arr.isEmpty{
+      let num =  arr.remove(at: 0)
+        dict[num] = (dict[num] ?? 0) + 1
+    return singleOneInArray(arr: arr, dict: dict)
+    }
+    return dict
+}
+
+func returnSingleInt(dict:[Int:Int]) -> Int{
+    for (key, val) in dict{
+        if val < 2 {
+        return key
+        }
+    }
+    return 0
+}
+
+let dict = singleOneInArray(arr: [4,5,6,7,8,7,6,5,8])
+returnSingleInt(dict: dict)
