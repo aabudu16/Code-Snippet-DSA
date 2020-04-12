@@ -34,3 +34,51 @@ func getNode(atIndex n: Int, startingAt head: ListNode?) -> ListNode? {
     let count = nodeCount(startingAt: head)
     return getNode(atIndex: count / 2, startingAt: head)
 }
+
+// Doing everything in one func.. run time is O(n) 
+
+func findMiddleNode(head:ListNode?) -> Int? {
+    guard head != nil else {return nil}
+    guard head?.next != nil else {return head?.val}
+    
+    var count = 0
+    var currentNode = head
+    while currentNode?.next != nil{
+       count += 1
+        currentNode = currentNode?.next
+    }
+    
+    var middleIndex:Int = count / 2
+    
+    currentNode = head
+    
+    while middleIndex > 0 {
+        currentNode = currentNode?.next
+        middleIndex -= 1
+    }
+    
+    return currentNode?.val
+}
+
+let one = ListNode(1)
+let two = ListNode(2)
+let three = ListNode(3)
+let four = ListNode(4)
+let five = ListNode(5)
+let six = ListNode(6)
+let seven = ListNode(7)
+let eight = ListNode(8)
+let nine = ListNode(9)
+
+one.next = two
+two.next = three
+three.next = four
+four.next = five
+five.next = six
+six.next = seven
+seven.next = eight
+eight.next = nine
+
+// one is head
+
+findMiddleNode(head: one)
