@@ -31,5 +31,7 @@
 
 [Check to see if Two Linked Lists intersect](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Linked%20List/getIntersectionNode.swift)
 
+[Remove all duplicates from a linked list](https://github.com/aabudu16/Code-Snippet-DSA/edit/master/Linked%20List/removeDuplicates.swift)
+
 ## Strings
 [Fizz Buzz](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Strings/fizzBuzz.swift)
