@@ -33,5 +33,7 @@
 
 [Remove all duplicates from a linked list](https://github.com/aabudu16/Code-Snippet-DSA/edit/master/Linked%20List/removeDuplicates.swift)
 
+[Print every Node value in a linked list](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Linked%20List/printEveryNode.swift)
+
 ## Strings
 [Fizz Buzz](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Strings/fizzBuzz.swift)
