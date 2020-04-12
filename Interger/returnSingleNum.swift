@@ -44,6 +44,7 @@ singleOneInArray(arr: [4,5,6,7,8,7,6,5,8])
 
 
 //Solving it recursively
+
 // By assigning a value to a parameter, it is not required during a function call. this allows for a recursive method
 // where you can call itself and pass in the values (Dict) but not required to pass it in when u call it at the end
 func singleOneInArray(arr:[Int], dict:[Int:Int] = [Int:Int]()) -> [Int:Int]{
