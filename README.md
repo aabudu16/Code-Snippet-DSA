@@ -22,6 +22,9 @@
 
 [Return largest value in a stack](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Stacks/returnLargestInteger.swift)
 
+## Recursion
+[Return largest value in a stack](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Stacks/returnLargestInteger2.swift)
+
 ## Dictionaries
 [Find most frequent int in an array](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Dictionaries/findTheMostFrequentInt.swift)
 
