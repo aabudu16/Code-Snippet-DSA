@@ -9,6 +9,7 @@
 
 [Returns the smallest element](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/DSA/Queue.swift).
 
+## Stacks
 [Stacks](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/DSA/Stacks.swift).
 
 ## Dictionaries
