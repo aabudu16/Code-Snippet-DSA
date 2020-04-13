@@ -51,3 +51,19 @@ func sumOfALL(stack:Stack<Int>)-> Int{
 
 let sum = sumOfALL(stack: stack)
 print(sum)
+
+
+// Sum of all values in a stack recursively
+func sumOfAll(stack:Stack<Int>?, sum:Int = 0) -> Int?{
+    guard let stack = stack else {return nil}
+    var sum = sum
+    
+    while !stack.isEmpty() {
+        sum += stack.pop()!
+       return sumOfAll(stack: stack, sum: sum)
+    }
+   return sum
+}
+
+let sum = sumOfAll(stack: stack)
+print(sum)
