@@ -14,6 +14,8 @@
 
 [Sum of all values in a stack recursively](https://github.com/aabudu16/Code-Snippet-DSA/tree/master/Stacks)
 
+[Sum of all values in a stack recursively while implementing a closure](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Stacks/sumOfAllValuesRecursively2.swift)
+
 ## Dictionaries
 [Find most frequent int in an array](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Dictionaries/findTheMostFrequentInt.swift)
 
