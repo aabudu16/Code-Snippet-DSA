@@ -24,7 +24,7 @@ class Stack <T:Equatable>{
     }
 }
 
-// Given a stack of Int, return the sum of all items values in the stack
+// Given a stack of Int, return the sum of all items values in a stack
 var stack = Stack<Int>()
 stack.push(value: 3)
 stack.push(value: 4)
