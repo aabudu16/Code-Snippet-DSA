@@ -39,7 +39,7 @@ func removeDuplicates(linkL:LL?, set:Set<Int> = Set<Int>()) -> LL?{
 
 removeDuplicates(linkL: one)
 
-// Removing duplicates and keeing the same order.....
+// Removing duplicates and keeping the same order.....
 
 func removeDuplicates(linkL: LL?) -> LL?{
     let head = linkL
