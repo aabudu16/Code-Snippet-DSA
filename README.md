@@ -46,7 +46,7 @@
 
 [Check to see if Two Linked Lists intersect](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Linked%20List/getIntersectionNode.swift)
 
-[Remove all duplicates from a linked list](https://github.com/aabudu16/Code-Snippet-DSA/edit/master/Linked%20List/removeDuplicates.swift)
+[Remove all duplicates from a linked list](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Linked%20List/removeDuplicates.swift)
 
 [Print every Node value in a linked list](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Linked%20List/printEveryNode.swift)
 
