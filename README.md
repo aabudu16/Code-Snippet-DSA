@@ -12,7 +12,7 @@
 ## Stacks
 [Sum of all values in a stack](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Stacks/sumOfAllValues.swift).
 
-[Sum of all values in a stack recursively]()
+[Sum of all values in a stack recursively](https://github.com/aabudu16/Code-Snippet-DSA/tree/master/Stacks)
 
 ## Dictionaries
 [Find most frequent int in an array](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Dictionaries/findTheMostFrequentInt.swift)
