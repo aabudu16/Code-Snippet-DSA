@@ -20,6 +20,8 @@
 
 [Reverse a stack recursively](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Stacks/reverseAStackRecursively.swift)
 
+[Return largest value in a stack](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Stacks/returnLargestInteger.swift)
+
 ## Dictionaries
 [Find most frequent int in an array](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Dictionaries/findTheMostFrequentInt.swift)
 
