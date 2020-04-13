@@ -10,7 +10,9 @@
 [Returns the smallest element](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/DSA/Queue.swift).
 
 ## Stacks
-[Stacks](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/DSA/Stacks.swift).
+[Sum of all values in a stack](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Stacks/sumOfAllValues.swift).
+
+[Sum of all values in a stack recursively]()
 
 ## Dictionaries
 [Find most frequent int in an array](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Dictionaries/findTheMostFrequentInt.swift)
