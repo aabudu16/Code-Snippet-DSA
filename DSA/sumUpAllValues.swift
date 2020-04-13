@@ -67,3 +67,36 @@ func sumOfAll(stack:Stack<Int>?, sum:Int = 0) -> Int?{
 
 let sum = sumOfAll(stack: stack)
 print(sum)
+
+
+// Sum of all values in a stack using a closure recursively
+//1)
+func sumOfALL(stack:Stack<Int>?, closure:(Int)->Void){
+    guard let stack = stack else {return}
+    while !stack.isEmpty(){
+    closure(stack.pop()!)
+    return sumOfAlL(stack: stack, closure: closure)
+    }
+}
+
+var sum = 0
+sumOfAlL(stack: stack) { (stack) in
+    sum += stack
+}
+ print(sum)
+
+//2)
+//////////////////////////////////////////////////////////////////////////
+func sumOfAlL(stack:Stack<Int>?, closure:(Stack<Int>)->Void){
+    guard let stack = stack else {return}
+    while !stack.isEmpty(){
+    closure(stack)
+    return sumOfAlL(stack: stack, closure: closure)
+    }
+}
+
+var sum = 0
+sumOfAlL(stack: stack) { (stack) in
+    sum += stack.pop()!
+}
+ print(sum)
