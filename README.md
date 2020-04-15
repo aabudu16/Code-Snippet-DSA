@@ -1,4 +1,4 @@
-# Code-Snippet-DSA
+# Solutions-To-DSA-Problems
 
 ## This is a collection of all DSA and non-DSA code snippet curated to help with constant studying and learning
 
