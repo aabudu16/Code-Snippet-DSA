@@ -52,3 +52,6 @@
 
 ## Strings
 [Fizz Buzz](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Strings/fizzBuzz.swift)
+
+## Trees
+[Search a tree for a value](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Trees/findNode.swift)
