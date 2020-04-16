@@ -70,3 +70,10 @@ class Stack <T>{
     
   return true
 }
+
+
+func checkRecord(_ s: String) -> Bool {
+      var test = s
+      test.removeAll{ $0 == “A” }
+      return (test.count == s.count || test.count == s.count - 1) && s.components(separatedBy: “LLL”).count == 1
+  }
