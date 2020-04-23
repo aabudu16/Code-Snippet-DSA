@@ -21,7 +21,7 @@
 
 [Move Zeros to the back on an array](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Array/moveZeroes.swift)
 
-[]()
+[find max sub array](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Array/maxSubArray.swift)
 
 ## Recursion
 [Return largest value in a stack](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Stacks/returnLargestInteger2.swift)
@@ -40,7 +40,7 @@
 [Hamming Distance](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Bitwise%20Operations/HammingDistance.swift)
 
 ## Interger
-[Max in an Array](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Interger/maxIntInArray.swift)
+[Max int in an Array](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Interger/maxIntInArray.swift)
 
 [singleOneInArray](https://github.com/aabudu16/Code-Snippet-DSA/blob/master/Interger/returnSingleNum.swift)
 
