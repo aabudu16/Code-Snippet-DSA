@@ -23,6 +23,8 @@
 
 [find max sub array](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Array/maxSubArray.swift)
 
+[Height Checker](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Array/heightChecker.swift)
+
 ## Recursion
 [Return largest value in a stack](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Stacks/returnLargestInteger2.swift)
 
