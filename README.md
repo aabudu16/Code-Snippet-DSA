@@ -16,6 +16,9 @@
 
 [Return largest value in a stack](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Stacks/returnLargestInteger.swift)
 
+## Array
+[return Duplicates from an array](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Array/returnDups.swift)
+
 ## Recursion
 [Return largest value in a stack](https://github.com/aabudu16/Solutions-To-DSA-Problems/blob/master/Stacks/returnLargestInteger2.swift)
 
